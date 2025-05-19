@@ -1,0 +1,23 @@
+{
+  "name": "auto-delete-media-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot that auto-deletes media messages in groups with timer settings",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "auto-delete",
+    "media",
+    "nodejs"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "node-telegram-bot-api": "^0.61.0"
+  }
+}
